@@ -1,9 +1,43 @@
 /* 🦊 Ajoutez tous les styles manquants pour recréer la maquette! */
-
+h1 {
+  margin: 0;
+  padding-left: 28px;
+  color: #000;
+  font-family: Silkscreen;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
 body {
   font-family: "Silkscreen", monospace;
+  display: flex;
+  width: 1512px;
+  padding: 100px 962px 457px 90px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 7px;
 }
+p {
+  padding-left: 28px;
+  padding-bottom: 17px;
+  width: 402px;
+  height: 60px;
+}
+div {
+  border-top: 3px solid #000;
 
+  border-left: 3px solid #000;
+}
 img {
   display: block;
+}
+a {
+  color: #000;
+  font-family: Silkscreen;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
 }
